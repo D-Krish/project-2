@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;1,400&family=Kalam:wght@300&family=Lobster&family=Pacifico&family=Titan+One&display=swap');
+
+/* * {
+    overflow-y: scroll;
+    overflow-x:hidden ;
+} */
+
+.A {
+    border: 2px black solid;
+}
+
+/* landing Page */
+.landingpagerow {
+    height: 100vh;
+    width: 100%;
+}
+
+section,
+footer {
+    background-color: #EA8A8B;
+    position: relative;
+    bottom: 0%;
+}
+
+/* landingpage 1st part  */
+
+/* desktop Navigation */
+
+@media only screen and (min-width:990px) {
+    .LandingPage1st {
+        background-image: url("https://drive.google.com/uc?export=view&id=1YIpUOA3XXCWp8AoSYXUEP-qApm-YSwzN");
+        object-fit: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    Nav {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 50px;
+    }
+
+    .nav-link {
+        font-family: 'Dosis', sans-serif;
+        color: black !important;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-right: 100Px;
+    }
+
+    a.nav-link:hover {
+        color: rgb(104, 103, 103) !important;
+    }
+}
+
+.active {
+    color: #000942 !important;
+    text-shadow: #EA8A8B 1px 1px;
+}
+
+@media only screen and (max-width:990px) {
+    .nav {
+        display: none;
+    }
+
+    .LandingPage1st {
+        background-image: url("https://drive.google.com/uc?export=view&id=1donGsQnxwHFVgFcLzc1Z1AabE-kKSwaT");
+        object-fit: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+    }
+
+    /* end of desktop Navigation */
+    /* phone/tab Navigation */
+    .navbtn {
+        font-family: 'Inter';
+        font-size: 20px;
+        color: white;
+        background-color: #000942;
+        font-weight: bolder;
+        border-radius: 50px;
+        margin: 1.5px;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25), inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+/* end of phone/tab Navigation */
+/* end of landingpage 1st part  */
+
+/* landingpage 2nd */
+/* phone/tab  */
+@media only screen and (max-width:990px) {
+    .LandingPage2nd {
+        background-image: url("https://drive.google.com/uc?export=view&id=1b7_2YjrOQyvcx6-RIihjlRHlWNoryrFD");
+        object-fit: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .LandingPage2nd p {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 45vh;
+    }
+}
+
+/* end of phone/tab */
+/* desktop */
+@media only screen and (min-width:990px) {
+    .LandingPage2nd {
+        background-image: url("https://drive.google.com/uc?export=view&id=1jb2s8HC9wt-8Lerr6I-Odo8JeX7mLk1i");
+        object-fit: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .LandingPage2nd p {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 35px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 45vh;
+    }
+}
+
+/* end of desktop */
+
+/* end of landingpage 2nd part */
+
+/* landingpage 3rd part */
+
+@media only screen and (max-width:990px) {
+    .coroselframe {
+        border: 15px white solid;
+        margin-bottom: 28%;
+        padding-top: 40%;
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (min-width:990px) {
+    .coroselframe img {
+        height: 100vh;
+    }
+}
+
+/* end of landingpage 3rd part  */
+
+/* copyright */
+.copyright {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: -20%;
+    font-weight: 500;
+    position: bottom;
+}
+
+/* end of copyright */
+/* AbouUS page */
+.logo {
+    position: absolute;
+    width: 120px;
+    height: 180px;
+    left: 5px;
+    top: -25px;
+}
+
+.aboutUs {
+    background-color: #ffffff00;
+
+}
+
+
+.RightSideImage {
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    right: 69px;
+    top: 48px;
+    border: 20px solid #FFFFFF;
+    filter: drop-shadow(10px -10px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    z-index: -1;
+    opacity: 70%;
+}
+
+.imagebox1 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    right: 31px;
+    top: 15px;
+    background: #EA8A8B;
+    z-index: -1;
+    opacity: 64%;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #000942;
+}
+
+.articalAaboutUs {
+    margin-top: 50px;
+    margin-bottom: 100PX;
+
+}
+
+.Articleimage {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.imagebox2 {
+    width: 300px;
+    height: 300px;
+    background: #EA8A8B;
+}
+
+.leftSideImage {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    border: 10px solid #FFFFFF;
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+
+}
+
+.lineBorder {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+    border: 5px solid #000942;
+}
+
+
+
+@media only screen and (max-width:990px) {
+    .RightSideImage {
+        width: 200px;
+        height: 200px;
+        margin-right: -30px;
+    }
+
+    .imagebox1 {
+        width: 200px;
+        height: 200px;
+        margin-right: -30px;
+    }
+
+    .articalAaboutUs {
+        margin-top: 13%;
+        margin-bottom: 38%;
+    }
+
+    .heading {
+        margin-top: 15%;
+    }
+
+    .articalAaboutUs {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .articalAaboutUs p {
+        padding: 0%;
+
+    }
+
+    .leftSideImage {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: -5px;
+        top: 0;
+    }
+
+    .imagebox2 {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .lineBorder {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: -25px;
+        top: 12px;
+    }
+}
+
+/* end of AbouUS page */
+
+/* design page */
+.DesignBox {
+    margin-right: 0.5px;
+    margin-left: 0.5px;
+}
+
+.Designs {
+    background-color: #FFFFFF;
+}
+
+.DesignDisplayBox {
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 3%;
+    background: linear-gradient(180deg, #EA8A8B 0%, rgba(234, 138, 139, 0) 100%);
+}
+
+.DesignImage {
+    width: 100%;
+    height: auto;
+}
+
+/* end of design page */
+
+/* Contact Us */
+
+.ContactUs {
+    background-color: #FFFFFF;
+}
+
+.ColcontactUsA , .ColcontactUsB{
+    height: 63.5vh;
+}
+
+.LocationBox {
+    position: relative;
+    left: 30%;
+    top: 10%;
+    width: 300px;
+    height: 180px;
+    background: #EA8A8B;
+    border-radius: none;
+
+}
+
+.MessageBox {
+    position: relative;
+    right: -15%;
+    top: 50%;
+    width: 300px;
+    height: 180px;
+    background: #EA8A8B;
+    border-radius: none;   
+
+}
+
+.btn-ContactUs {
+    text-decoration: none !important;
+}
+
+.Locationfont {
+    display: block;
+    margin-top: 25%;
+    color: rgba(255, 255, 255, 1);
+    ;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+
+}
+
+.MessageFont {
+    display: block;
+    margin-top: 25%;
+    color: rgba(255, 255, 255, 1);
+    ;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    padding-left: 64%;
+}
+
+.locationIcon {
+    position: absolute;
+    left: 0%;
+    top: -25%;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Messageicon {
+    position: absolute;
+    right: 0%;
+    top: -25%;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media only screen and (min-width:990px) {
+    .ImageLocation {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: -15%;
+        right: -35%;
+    }
+
+    .ImageMessage {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        bottom: -25%;
+        left: -40%;
+    }
+
+}
+
+@media only screen and (max-width:990px) {
+
+    .LocationBox,
+    .MessageBox {
+        width: 220px;
+        height: 200px;
+        position: relative;
+        left: 0%;
+    }
+
+    .Messageicon {
+        position: absolute;
+        left: 0%;
+    }
+
+    .ColcontactUsA {
+        height: 50%;
+        margin-top: 45%;
+        margin-bottom: 25%;
+    }
+    .ColcontactUsB {
+        height: 50%;
+        margin-top: 15%;
+        margin-bottom: 25%;
+    }
+
+    .Locationfont {
+        font-size: 20px;
+       padding-left: 0%;
+       padding-top: 10%;
+
+    }
+    .MessageFont {
+        font-size: 20px;
+       padding-left: 8%;
+       padding-top: 10%;
+
+    }
+    .ImageLocation {
+        width: 230px;
+        height: 180px;
+        position: absolute;
+        bottom: 0%;
+        left:50%;
+        
+    }
+
+    .ImageMessage {
+        width: 230px;
+        height: 180px;
+        position: absolute;
+        bottom: 0%;
+        left:50%;
+        
+    }
+}
+
+/* End of Contact Us */
+
+/*  Location */
+
+.mapbox {
+    height: fit-content;
+    background-color: #EA8A8B;
+    margin-bottom: 6.5%;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.address {
+    float: left;
+    margin-top: 10%;
+    padding-left: 2%;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.locationmap {
+    float: right;
+
+}
+
+@media only screen and (max-width:990px) {
+    .locationmap {
+        position: relative;
+        height: 410px;
+        width: 100%;
+    }
+
+    .mapbox {
+        width: 100%;
+        height: fit-content;
+        padding: 0%;
+        margin-bottom: 34%;
+        margin-top: 32%;
+        overflow: hidden;
+    }
+
+    .address {
+        padding-top: 4%;
+        font-size: 18px;
+    }
+}
+/* End of Location */
+
+/* Message */
+.messageBox{
+    width: auto;
+    height:75vh ;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: #EA8A8B;
+}
+.inputline{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.buttonform .navbtn{
+    display:inline-block;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: white;
+    background-color: #000942;
+    font-weight: bolder;
+    border-radius: 50px;
+    margin: 1.5px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25), inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left:25% ;
+}
+.messageBox label{
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+color: #000000;
+
+}
+.messageBox .inputline{
+    font-size: 14px !important;
+}
+
+.form-check-input{
+    float: right !important;
+    margin-right: 50%;
+}
+
+@media only screen and (max-width:990px) {
+ .messageBox{
+    margin-top: 120px;    
+    padding: 5%;
+    
+ }
+ .messageBox label{
+font-size: 15px;
+ }   
+ .buttonform .navbtn{
+    margin-left:8%;
+    margin-right: 8%;
+ }
+}
+/*End of  Message */
